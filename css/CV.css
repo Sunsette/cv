@@ -1,0 +1,144 @@
+html{
+	height: 100%;
+}
+body{
+	background-image: -webkit-linear-gradient(#FF9F97 0%,#ffffff 100%);
+	
+}
+.side{
+	float: left;
+	margin-right: 2%;
+	width: 20%;
+	height: 500px;
+	border: 5px #B8ABB5 solid;
+	margin-left: 2%;
+	margin-top: 90px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888;
+}
+.side p{
+	font-family: Raleway;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FF5B3A;
+}
+img{
+	margin-top: 15%;
+	margin-left: 15%;
+	-webkit-filter:grayscale(100%);
+	transition: all 3s ease-in-out;
+}
+img:hover{
+	-webkit-filter:grayscale(0%);
+}
+.wrapper{
+	float: left;
+	width: 70%;
+	height: 500px;
+	border: 5px #B8ABB5 solid;
+	margin: auto;
+	margin-top: 90px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888;
+}
+.section{
+	margin-left: 20px;
+}
+.section p{
+	opacity: 0;
+	transition: all 2s ease-in;
+}
+.section a{
+	text-decoration: none;
+	color: #FF5B3A;
+}
+
+h2{
+	font-family: Raleway ;
+	color: #FF5B3A;
+	width: 300px;
+	margin-top: 35px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 55px;
+	font-size: 30px;
+	transition: all 1s ease-in-out;
+}
+
+.section:hover h2{
+	color: #968C94;
+}
+h2:hover{
+	color: #968C94;
+}
+
+h2:hover + p{
+	opacity: 1;
+}
+
+#omMig p{
+	position: absolute;
+	top:120px;
+	left:50%;
+	padding: 20px;
+	color: #666;
+	width: 400px
+	height:300px;
+	background-color: #FFEAE2;
+	border-radius: 10px;
+}
+#framtiden p{
+	position: absolute;
+	top:491px;
+	left:50%;
+	padding: 20px;
+	background-color: #FFEAE2;
+	border-radius: 10px;
+	color: #666;
+
+} 
+
+ul{
+	opacity: 0;
+	transition: opacity 2s ease-in;
+}
+.section:hover ul{
+	opacity: 1;
+	position: absolute;
+	top: 200px;
+	left: 800px;
+}
+
+.section:hover p{
+	opacity: 1;
+
+}
+
+#utbildning ul{
+	position:absolute;
+	top: 236px;
+	left: 50%;
+	padding: 20px;
+	background-color: #FFEAE2;
+	border-radius: 10px;
+	color: #666;
+
+}
+#arbetserfarenhet ul{
+	position: absolute;
+	top: 343px;
+	left: 50%;
+	padding: 20px;
+	background-color: #FFEAE2;
+	border-radius: 10px;
+	color: #666;
+}
+.kontakt{
+	margin-left: 40%;
+	float: left;
+	text-align: center;
+	font-family: Raleway, bold;
+}
